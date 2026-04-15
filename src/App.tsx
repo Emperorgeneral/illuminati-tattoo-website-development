@@ -352,7 +352,7 @@ const App = () => {
                 We pride ourselves on creating a welcoming, professional, and chill atmosphere. Whether you're a first-timer or a seasoned collector, our shop is a safe space for women, non-binary, and trans clients. We emphasize hygiene, client education, and proper aftercare for every service.
               </p>
               
-              <div className="grid grid-cols-2 gap-4 mb-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 <div className="bg-gray-900 p-4 rounded-lg border border-emerald-500/20">
                   <Shield className="w-8 h-8 text-emerald-400 mb-2" />
                   <h3 className="font-bold">Sterile Environment</h3>
@@ -372,7 +372,7 @@ const App = () => {
             
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1559598467-fe8e77a815fc?auto=format&fit=crop&q=80&w=600&h=700"
+                src="/images/studio-interior.jpg"
                 alt="Tattoo studio interior"
                 className="rounded-lg shadow-2xl w-full object-cover"
               />
